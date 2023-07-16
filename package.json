@@ -1,0 +1,15 @@
+{
+  "name": "vozila007",
+  "version": "1.0.0",
+  "description": "Saypress testing simple app in js,htm,css",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.16.0",
+    "mochawesome": "^7.1.3"
+  }
+}

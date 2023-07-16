@@ -1,0 +1,125 @@
+body {
+    background-color: #ecf0f1;
+    color: #34495e;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1a242f;
+    padding: 10px;
+  }
+  
+  .header h1 {
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 30%;
+    font-size: 16px;
+  }
+  
+  .form-field {
+    width: 100%;
+    
+    margin-bottom: 10px;
+  }
+  
+  .form-field label {
+    font-weight: bold;
+  }
+  
+  .form-field select,
+  .form-field input[type="text"] {
+    width: 100%;
+    box-sizing:border-box;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: 16px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #bdc3c7;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #1a242f;
+  }
+  
+  .edit-button {
+    padding: 6px 12px;
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 16px;
+  }
+  
+  .edit-button:hover {
+    background-color: #1a242f;
+  }
+  
+  .delete-button {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 16px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  
